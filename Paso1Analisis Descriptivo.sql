@@ -1,0 +1,20 @@
+SELECT 
+    MAX(study_hours) AS max_study_hours,
+    MIN(study_hours) AS min_study_hours,
+    AVG(study_hours) AS avg_study_hours,
+    MAX(class_attendance) AS max_class_attendance,
+    MIN(class_attendance) AS min_class_attendance,
+    AVG(class_attendance) AS avg_class_attendance,
+    MAX(previous_gpa) AS max_previous_gpa,
+    MIN(previous_gpa) AS min_previous_gpa,
+    AVG(previous_gpa) AS avg_previous_gpa,
+    MAX(social_activities) AS max_social_activities,
+    MIN(social_activities) AS min_social_activities,
+    AVG(social_activities) AS avg_social_activities,
+    MAX(library_visits) AS max_library_visits,
+    MIN(library_visits) AS min_library_visits,
+    AVG(library_visits) AS avg_library_visits,
+    MAX(current_gpa) AS max_current_gpa,
+    MIN(current_gpa) AS min_current_gpa,
+    AVG(current_gpa) AS avg_current_gpa
+FROM student_performance;
