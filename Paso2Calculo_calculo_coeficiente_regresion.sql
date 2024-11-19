@@ -33,6 +33,11 @@ calculo AS (
         (sum_x5y / NULLIF(sum_x5x5, 0)) AS beta5,
         (sum_x6y / NULLIF(sum_x6x6, 0)) AS beta6,
         avg_current_gpa - 
+
+
+
+
+
         ((sum_x1y / NULLIF(sum_x1x1, 0)) * avg_study_hours) - 
         ((sum_x2y / NULLIF(sum_x2x2, 0)) * avg_class_attendance) - 
         ((sum_x3y / NULLIF(sum_x3x3, 0)) * avg_previous_gpa) - 
